@@ -26,6 +26,7 @@ time, mark, audio, video {
 
 body{
     padding: 0;
+    width: 90%;
     margin: 0 ;
     color: #ffff;
     background-color:#223357;
@@ -39,6 +40,7 @@ body{
     display: flex;
     padding-top: 5vh;
     width: 70%;
+    padding-bottom: 5vh;
 }
 .navBar ul {
 	display: flex;
@@ -55,7 +57,7 @@ body{
 	display: flex;
 }
 .navBar ul li a {
-	border: 1px solid black;
+    border: 1px solid #fff;
 	padding: 1.4rem;
 	text-align: center;
 	font-size: 1.75rem;
@@ -72,13 +74,10 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 15%;
-    width: 40%;
-    margin-right: 9%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    padding:15%;
-    border: 8px solid #fff;
+    margin: 0 auto;
+    width: 45%;
+    padding:10rem;
+    border: 4px solid #fff;
 
 }
 
@@ -103,6 +102,11 @@ body{
     flex-wrap: wrap;
     padding-bottom: 1%;
     margin-left: 1%;
+}
+
+.picsection img{
+    margin: 1.5rem;
+    box-shadow: 5px 10px 18px black;
 }
 
 
